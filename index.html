@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Embed via Object Config Params</title>
+	<meta name="description" content="Antman tests CS-2099?"><meta name=”robots” content=”noindex”>
+	<style type="text/css">h2 { quotes: "“" "”"; }
+body { background-color:;}
+a[href ^= 'http']:not([href *= 'google.com']) {
+    background: transparent url(arrow.svg) no-repeat center right;
+    padding-right: 16px;
+}
+    body {
+      background-color: orangered !important;
+    }
+	</style>
+</head>
+<body>
+<header>
+<div id="logo">Need to add Agile Design Labs header</div>
+
+<nav>...</nav>
+</header>
+
+<main role="main">
+<h1>EVERFI Financial Education</h1>
+
+<p>Provide personalized and just-in-time financial education to your consumers, employees and employer groups with a mobile-first financial education platform.</p>
+
+<h2><q>Testing Staging</q></h2>
+
+<h3>Object config parameter embedding (Español)</h3>
+
+<pre>
+&lt;script&gt;
+function exitTimes(){
+  alert(&#39;done!!&#39;);
+}
+everFiProgramContentIframeOptions = {
+  account: &#39;21qatestact&#39;,
+  program: &#39;dgram01&#39;,
+  playlist: &#39;achieve&#39;,
+  module: &#39;630&#39;,
+  onExit: &#39;exitTimes&#39;
+}
+&lt;/script&gt;
+&lt;script id=&quot;everfi-program-content-iframer&quot;
+        src=&quot;https://everfi-next-staging.net/embed_script.js?locale=es&quot;&gt;
+&lt;/script&gt;
+</pre>
+<script>
+function exitTimes(){
+  alert('done!!');
+}
+everFiProgramContentIframeOptions = {
+  account: '21qatestact',
+  program: 'dgram01',
+  playlist: 'achieve',
+  module: '630',
+  onExit: 'exitTimes',
+  height: 'expand'
+}
+</script><script id="everfi-program-content-iframer"
+        src="https://everfi-next-staging.net/embed_script.js?locale=es">
+</script></main>
+</body>
+</html>
